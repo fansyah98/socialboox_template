@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="">
+    <title>Socail Book - Fansyah Dwi Krisnady</title>
+    <!-- <script src="https://kit.fontawesome.com/c4253e24a8.js" crossorigin="anonymous"></script> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" />
+</head>
+
+<body>
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="l">
+                <input type="text" placeholder="pencarian">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <div class="settings-menu">
+            <div class="settinng-menu-inner">
+                <div class="user-profil">
+                    <img src="images/profile.png" alt="">
+                    <div>
+                        <p>John Nicholos</p>
+                        <a href="">See Your Profil</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profil">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Informasi dan bantuan</p>
+                        <a href="">More information</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="">Settings & Privasi <img src="images/arrow.png"widht="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="">Display <img src="images/arrow.png"widht="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="">Bantuan & Information <img src="images/arrow.png"widht="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="">Logout <img src="images/arrow.png"widht="10px"></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </nav>
+
+    <div class="container">
+        <div class="left-sidebar">
+            <div class="imp-links">
+                <a href=""><img src="images/news.png" alt="">Last News</a>
+                <a href=""><img src="images/friends.png" alt="">Friends</a>
+                <a href=""><img src="images/group.png" alt="">Group</a>
+                <a href=""><img src="images/marketplace.png" alt="">MarketPlace</a>
+                <a href=""><img src="images/watch.png" alt="">Wacth</a>
+                <a href="">see more</a>
+            </div>
+            <div class="shortcut-linsk">
+                <p>Your Shortcuts</p>
+                <a href="#"><img src="images/shortcut-1.png" alt="">web developer</a>
+                <a href="#"><img src="images/shortcut-2.png" alt="">web Desain</a>
+                <a href="#"><img src="images/shortcut-3.png" alt="">Full stack developer</a>
+                <a href="#"><img src="images/shortcut-4.png" alt="">Data Sain</a>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="sotry-gallery">
+                <div class="story story1">
+                    <img src="images/upload.png" alt="">
+                    <p>Widad Najmatul Kautsar</p>
+                </div>
+                <div class="story story2">
+                    <img src="images/member-1.png" alt="">
+                    <p>Jhon Doe</p>
+                </div>
+                <div class="story story3">
+                    <img src="images/member-2.png" alt="">
+                    <p>Alison</p>
+                </div>
+                <div class="story story4">
+                    <img src="images/member-3.png" alt="">
+                    <p>Sinom</p>
+                </div>
+                <div class="story story5">
+                    <img src="images/member-4.png" alt="">
+                    <p>Lesi</p>
+                </div>
+            </div>
+
+            <div class="write-post-container">
+                <div class="user-profil">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>John Nicholos</p>
+                        <small>Public<i class="fa fa-caret-down" aria-hidden="true"></i></small>
+                    </div>
+                </div>
+
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="Silakan Tulis Status atau Cerita Anda"></textarea>
+
+                    <div class="add-post-linsk">
+                        <a href=""><img src="images/live-video.png" alt="">Live Vidoe</a>
+                        <a href=""><img src="images/photo.png" alt="">Photo Vidoe</a>
+                        <a href=""><img src="images/feeling.png" alt="">Feeling Action</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profil">
+                        <img src="images/profile-study.png" alt="">
+                        <div>
+                            <p>John Nicholos</p>
+                            <span>Juni 24 2021 , 13.40 pm</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subcriebe @webcoding media belajar barang dalam bahasa dasar mark up html desain\
+                    <a href="">Fansyah Dwi Krisnady</a><a href=""> WrbcodingMedia</a>
+                </p>
+                <img src="images/feed-image-2.png" alt="" class="post-image">
+
+
+                <div class="post-row">
+                    <div class="active-icon">
+                        <div><img src="images/like.png" alt="">123</div>
+                        <div><img src="images/comments.png" alt="">23</div>
+                        <div><img src="images/share.png" alt="">32</div>
+                    </div>
+                    <div class="post-profil-icon">
+                        <img src="images/profile-pic.png" alt=""> <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profil">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholos</p>
+                            <span>Juni 24 2021 , 13.40 pm</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subcriebe @webcoding media belajar barang dalam bahasa dasar mark up html desain\
+                    <a href="">Fansyah Dwi Krisnady</a><a href=""> WrbcodingMedia</a>
+                </p>
+                <img src="images/feed-image-4.png" alt="" class="post-image">
+
+
+                <div class="post-row">
+                    <div class="active-icon">
+                        <div><img src="images/like.png" alt="">123</div>
+                        <div><img src="images/comments.png" alt="">23</div>
+                        <div><img src="images/share.png" alt="">32</div>
+                    </div>
+                    <div class="post-profil-icon">
+                        <img src="images/profile-pic.png" alt=""> <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profil">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholos</p>
+                            <span>Juni 24 2021 , 13.40 pm</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subcriebe @webcoding media belajar barang dalam bahasa dasar mark up html desain\
+                    <a href="">Fansyah Dwi Krisnady</a><a href=""> WrbcodingMedia</a>
+                </p>
+                <img src="images/feed-image-3.png" alt="" class="post-image">
+
+
+                <div class="post-row">
+                    <div class="active-icon">
+                        <div><img src="images/like-blue.png" alt="">123</div>
+                        <div><img src="images/comments.png" alt="">23</div>
+                        <div><img src="images/share.png" alt="">32</div>
+                    </div>
+                    <div class="post-profil-icon">
+                        <img src="images/profile-pic.png" alt=""> <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profil">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholos</p>
+                            <span>Juni 24 2021 , 13.40 pm</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subcriebe @webcoding media belajar barang dalam bahasa dasar mark up html desain\
+                    <a href="">Fansyah Dwi Krisnady</a><a href=""> WrbcodingMedia</a>
+                </p>
+                <img src="images/feed-image-5.png" alt="" class="post-image">
+
+
+                <div class="post-row">
+                    <div class="active-icon">
+                        <div><img src="images/like-blue.png" alt="">123</div>
+                        <div><img src="images/comments.png" alt="">23</div>
+                        <div><img src="images/share.png" alt="">32</div>
+                    </div>
+                    <div class="post-profil-icon">
+                        <img src="images/profile-pic.png" alt=""> <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profil">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>John Nicholos</p>
+                            <span>Juni 24 2021 , 13.40 pm</span>
+                        </div>
+                    </div>
+                    <a href=""><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">Subcriebe @webcoding media belajar barang dalam bahasa dasar mark up html desain\
+                    <a href="">Fansyah Dwi Krisnady</a><a href=""> WrbcodingMedia</a>
+                </p>
+                <img src="images/feed-image-5.png" alt="" class="post-image">
+
+
+                <div class="post-row">
+                    <div class="active-icon">
+                        <div><img src="images/like-blue.png" alt="">123</div>
+                        <div><img src="images/comments.png" alt="">23</div>
+                        <div><img src="images/share.png" alt="">32</div>
+                    </div>
+                    <div class="post-profil-icon">
+                        <img src="images/profile-pic.png" alt=""> <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+            <button type="button" class="Load-more-btn">Load More</button>
+        </div>
+
+        <div class="right-sidebar">
+
+            <div class="sidebar-title">
+                <h4>Events</h4>
+                <a href="">See All</a>
+            </div>
+
+            <div class="event">
+                <div class="left-event">
+                    <h3>18</h3>
+                    <span>March</span>
+                </div>
+                <div class="right-event">
+                    <h4>Social Media</h4>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Wiillson Tech Park</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>22</h3>
+                    <span>Febuary</span>
+                </div>
+                <div class="right-event">
+                    <h4>Mobile Marketing</h4>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Jawa Barat</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+            <div class="event">
+                <div class="left-event">
+                    <h3>10</h3>
+                    <span>September</span>
+                </div>
+                <div class="right-event">
+                    <h4>Web Desaing</h4>
+                    <p><i class="fa fa-map-marker" aria-hidden="true"></i> Jawa Barat</p>
+                    <a href="">More Info</a>
+                </div>
+            </div>
+
+            <div class="sidebar-title">
+                <h4>Advertisment</h4>
+                <a href="">Close</a>
+            </div>
+            <img src="images/advertisement.png" class="sidebar-ads">
+            <div class="sidebar-title">
+                <h4>Convertasion</h4>
+                <a href="">Hide Chart</a>
+            </div>
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.png" alt="">
+                </div>
+                <p>Widad Najmatul Kautsar</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.png" alt="">
+                </div>
+                <p>Jhon Doe</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.png" alt="">
+                </div>
+                <p>Lesi Lesvita Dewi</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.png" alt="">
+                </div>
+                <p>Jokowi</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-5.png" alt="">
+                </div>
+                <p>Agung Laksama</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Copyright 2021 - Webcodingmedia Software Hauso</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
